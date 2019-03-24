@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             new RequestApiTask().execute();//static이 아니므로 클래스 만들어서 시행.
         }
         if(v.getId() == R.id.btnlogout){
-            naverLoginInstance.logout(context);
+            naverLoginInstance.logout(context) ;
             tv_mail.setText((String) "");//메일 란 비우기
         }
     }
