@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         naverLogInButton.setOAuthLoginHandler(naverLoginHandler);
         tv_mail = (TextView)findViewById(R.id.tv_mailaddress);
         btnGetApi = (Button)findViewById(R.id.btngetapi);
-        btnGetApi.setOnClickListener(this);
+        btnGetApi.setOnClickListener(this) ;
         btnLogout = (Button)findViewById(R.id.btnlogout);
         btnLogout.setOnClickListener(this);
 
